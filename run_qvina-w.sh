@@ -3,7 +3,7 @@
 #PBS -q cpu
 #PBS -j n
 #PBS -l select=1:ncpus=16:mpiprocs=16:mem=32gb
-#PBS -N chembl_pre
+#PBS -N test
 #PBS -m a
 
 module load mpi/mpich-x86_64

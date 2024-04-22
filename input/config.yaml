@@ -1,0 +1,8 @@
+ligand_type: sdf #or smiles sdf, pdbqt
+protein_type: pdb #or pdb, pdbqt
+docking_type: pairwise #or specified
+afdb_path: null #or path to afdb
+input: ligand_list_demo.csv
+num_modes: 16
+exhaustiveness: 16
+output_dir: "../output"
